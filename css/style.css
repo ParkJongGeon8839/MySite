@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "HyoNamAlwaysFighting";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_04@1.0/Fighting_hyonam.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+/*  * ← 모든 사용자를 의미함 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: HyoNamAlwaysFighting, sans-serif;
+  font-size: 30px;
+  line-height: 1.6;
+}
